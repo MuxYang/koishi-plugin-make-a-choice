@@ -1,6 +1,6 @@
 {
   "name": "koishi-plugin-make-a-choice",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pick between two options after a wake word.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
