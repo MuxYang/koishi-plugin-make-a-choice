@@ -1,0 +1,45 @@
+{
+  "name": "koishi-plugin-make-a-choice",
+  "version": "1.0.0",
+  "description": "Pick between two options after a wake word.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "koishi",
+    "plugin",
+    "choice",
+    "random",
+    "chatbot"
+  ],
+  "author": "MuxYang <tlnkmc.b@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuxYang/koishi-plugin-make-a-choice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MuxYang/koishi-plugin-make-a-choice/issues"
+  },
+  "homepage": "https://github.com/MuxYang/koishi-plugin-make-a-choice#readme",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "koishi": {
+    "description": {
+      "en": "Pick between two options after a wake word",
+      "zh-CN": "设定唤醒词后，在“xx还是xx”之间随机选择"
+    }
+  },
+  "peerDependencies": {
+    "koishi": "^4.17.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "koishi": "^4.17.0"
+  }
+}
